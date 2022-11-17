@@ -13,7 +13,11 @@ function math() {
     let sum= x + y
     document.write(sum + "blaze it");
     return sum;
-
 }
 
-
+function punkCheck() {
+    let x=prompt("say yes");
+     if (x=="yes") document.write("you just do whatever you're told huh?") 
+     else document.write("you're a rebel. i like you");
+    return ;
+}
