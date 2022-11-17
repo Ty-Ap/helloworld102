@@ -12,12 +12,12 @@ function math() {
     let y=340
     let sum= x + y
     alert(sum + "blaze it");
-    return sum;
+    return ("enjoy!");
 }
 
 function punkCheck() {
     let x=prompt("say yes");
      if (x=="yes") alert("you just do whatever you're told huh?");
-     else alert(("you're a rebel. i like you") + math())
+     else alert ("you're a rebel. i like you"); alert (math()) ;
     return x;
 }
