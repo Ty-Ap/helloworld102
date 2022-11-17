@@ -1,13 +1,13 @@
 h1 {
     text-align: center;
-    color:blueviolet;
+    color:black;
     text-decoration:line-through;
 }
 .lower {
-color:chartreuse;
+color: grey;
 }
 .lower {
-    background-color: black;
+    background-color: white;
 }
 
 main {
@@ -21,8 +21,8 @@ body {
     font-family: tahoma, helvetica, arial, sans-serif;
     font-size: 9px;
     text-align: center;
-    background: #000;
-    color: #ddd4d4;
+    background: white;
+    color: black;
     padding-top: 12px;
     line-height: 2;
 }

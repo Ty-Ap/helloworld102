@@ -25,3 +25,10 @@ function punkCheck() {
      else alert ("you're a rebel. i like you"); alert (math());
     return x;
 }
+function forLoop() {
+   for (let i = 13; i > 11 ; i--)
+    {
+     document.write( i ); 
+    }
+   return i;
+   }
