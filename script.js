@@ -3,6 +3,10 @@ alert ("lorem ipsum");
 
 function enterName() {
     let username=prompt("what do i call you");
+        while (username ===(""))
+        {
+            username=prompt("no really you must have a name");
+        }
     alert("Hello " + username);
     return username;
 }
@@ -18,6 +22,6 @@ function math() {
 function punkCheck() {
     let x=prompt("say yes");
      if (x=="yes") alert("you just do whatever you're told huh?");
-     else alert ("you're a rebel. i like you"); alert (math()) ;
+     else alert ("you're a rebel. i like you"); alert (math());
     return x;
 }
