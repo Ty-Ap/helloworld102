@@ -30,5 +30,13 @@ function forLoop() {
     {
      document.write( i ); 
     }
-   return i;
    }
+function imageCounter() {
+    let count = prompt("how many Punks do you want to see? 1-5");
+    while (count < 1 || count > 5) {
+        count = prompt("must be between 1-5");
+    }
+    for (i =0; i < count; i++) {
+        document.write("<img src='https://images.unsplash.com/photo-1599275332750-94224515260c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80' alt='person with mohawk in a leather jacket on a beach'/>" );
+    }
+}
